@@ -1,117 +1,112 @@
-DROP TABLE IF EXISTS COMPANY_PROJECTS  CASCADE;
-DROP TABLE IF EXISTS CUSTOMER_PROJECTS CASCADE;
-DROP TABLE IF EXISTS DEVELOPER_SKILLS  CASCADE;
-DROP TABLE IF EXISTS PROJECT_TEAMS     CASCADE;
-DROP TABLE IF EXISTS DEVELOPERS  CASCADE;
-DROP TABLE IF EXISTS SKILLS      CASCADE;
-DROP TABLE IF EXISTS PROJECTS    CASCADE;
-DROP TABLE IF EXISTS COMPANIES   CASCADE;
-DROP TABLE IF EXISTS CUSTOMERS   CASCADE;
+drop table if exists company_projects  cascade;
+drop table if exists customer_projects cascade;
+drop table if exists developer_skills  cascade;
+drop table if exists project_teams     cascade;
+drop table if exists customer_project cascade;
+DROP TABLE IF EXISTS company_project cascade;
+drop table if exists developers  cascade;
+drop table if exists skills      cascade;
+drop table if exists projects    cascade;
+drop table if exists companies   cascade;
+drop table if exists customers   cascade;
 
 
-create table COMPANIES
+create table companies
 (
-  id      numeric(10) not null,
+  id      bigint not null,
   code    character(20),
   name    character(160) not null,
   address character(256),
   edrpou  character(12) not null
 )
 ;
-alter table COMPANIES  add constraint C_COMPANIES_PK primary key (ID);
-alter table COMPANIES  add constraint C_COMPANIES_UK unique (EDRPOU, NAME);
+alter table companies  add constraint c_companies_pk primary key (id);
+alter table companies  add constraint c_companies_uk unique (edrpou, name);
 
-create table PROJECTS
+create table projects
 (
-  id      numeric(10) not null,
+  id      bigint not null,
   name    character(80) not null,
   manager character(80)
 )
 ;
-alter table PROJECTS  add constraint C_PROJECTS_PK primary key (ID);
-alter table PROJECTS  add constraint C_PROJECTS_UK unique (NAME);
+alter table projects  add constraint c_projects_pk primary key (id);
+alter table projects  add constraint c_projects_uk unique (name);
 
-create table COMPANY_PROJECTS
+create table company_project
 (
-  id      numeric not null,
-  company numeric not null,
-  project numeric not null
+  company bigint not null,
+  project bigint not null
 )
 ;
-alter table COMPANY_PROJECTS  add constraint C_COMPANIES_PROJECTS_PK primary key (ID);
-alter table COMPANY_PROJECTS  add constraint C_COMPANIES_PROJECTS_UK unique (COMPANY, PROJECT);
-alter table COMPANY_PROJECTS  add constraint C_COMPANIES_PROJECTS_COMP_FK foreign key (COMPANY)  references COMPANIES (ID);
-alter table COMPANY_PROJECTS  add constraint C_COMPANIES_PROJECTS_PRJ_FK foreign key (PROJECT)  references PROJECTS (ID);
+alter table company_project  add constraint c_company_project_pk PRIMARY KEY (company, project);
+alter table company_project  add constraint c_company_project_company_fk foreign key (company)  references companies (id) ON DELETE CASCADE;
+alter table company_project  add constraint c_company_project_project_fk foreign key (project)  references projects (id) ON DELETE CASCADE;
 
-create table CUSTOMERS
+create table customers
 (
-  id      numeric(10) not null,
+  id      bigint not null,
   code    character(20),
   name    character(160) not null,
   country character(80)
 )
 ;
-alter table CUSTOMERS  add constraint C_CUSTOMERS_PK primary key (ID);
-alter table CUSTOMERS  add constraint C_CUSTOMERS_UK unique (NAME);
+alter table customers  add constraint c_customers_pk primary key (id);
+alter table customers  add constraint c_customers_uk unique (name);
 
-create table CUSTOMER_PROJECTS
+create table customer_project
 (
-  id       numeric not null,
-  customer numeric not null,
-  project  numeric not null
+  customer bigint not null,
+  project  bigint not null
 )
 ;
-alter table CUSTOMER_PROJECTS  add constraint C_CUSTOMER_PROJECTS_PK primary key (ID);
-alter table CUSTOMER_PROJECTS  add constraint C_CUSTOMER_PROJECTS_UK unique (CUSTOMER, PROJECT);
-alter table CUSTOMER_PROJECTS  add constraint C_CUSTOMER_PROJECTS_CUSTOMER_FK foreign key (CUSTOMER)  references CUSTOMERS (ID);
-alter table CUSTOMER_PROJECTS  add constraint C_CUSTOMER_PROJECTS_PRJ_FK foreign key (PROJECT)  references PROJECTS (ID);
+alter table customer_project  add constraint c_customer_project_pk primary key (customer, project);
+alter table customer_project  add constraint c_customer_project_customer_fk foreign key (customer)  references customers (id) ON DELETE CASCADE;
+alter table customer_project  add constraint c_customer_project_project_fk foreign key (project)  references projects (id) ON DELETE CASCADE;
 
-create table DEVELOPERS
+create table developers
 (
-  id       numeric(10) not null,
+  id       bigint not null,
   name     character(40) not null,
   surname  character(40) not null,
   sex      character(20) not null,
-  birthday DATE not null,
+  birthday date not null,
   comments character(256),
   salary   numeric(10,2)
 )
 ;
-alter table DEVELOPERS  add constraint C_DEVELOPERS_PK primary key (ID);
-alter table DEVELOPERS  add constraint C_DEVELOPERS_UK unique (NAME, SURNAME, BIRTHDAY);
-alter table DEVELOPERS  add constraint C_DDEVELOPERS_CHK  check (SEX in ('Male','Female','Undefined'));
+alter table developers  add constraint c_developers_pk primary key (id);
+alter table developers  add constraint c_developers_uk unique (name, surname, birthday);
+alter table developers  add constraint c_developers_chk  check (sex in ('Male','Female','Undefined'));
 
-create table SKILLS
+create table skills
 (
-  id       numeric(10) not null,
+  id       bigint not null,
   language character(20) not null,
   rate     character(20) not null
 )
 ;
-alter table SKILLS  add constraint C_SKILLS_PK primary key (ID);
-alter table SKILLS  add constraint C_SKILLS_UK unique (LANGUAGE, RATE);
+alter table skills  add constraint c_skills_pk primary key (id);
+alter table skills  add constraint c_skills_uk unique (language, rate);
 
-create table DEVELOPER_SKILLS
+create table developer_skills
 (
-  id        numeric not null,
-  developer numeric not null,
-  skills    numeric not null
+  developer bigint not null,
+  skills    bigint not null
 )
 ;
-alter table DEVELOPER_SKILLS  add constraint C_DEVELOPER_SKILLS_PK primary key (ID);
-alter table DEVELOPER_SKILLS  add constraint C_DEVELOPER_SKILLS_UK unique (DEVELOPER, SKILLS);
-alter table DEVELOPER_SKILLS  add constraint C_DEVELOPER_SKILLS_DEV_FK foreign key (DEVELOPER)  references DEVELOPERS (ID);
-alter table DEVELOPER_SKILLS  add constraint C_DEVELOPER_SKILLS_SKILLS_FK foreign key (SKILLS)  references SKILLS (ID);
+alter table developer_skills  add constraint c_developer_skills_pk primary key (developer, skills);
+alter table developer_skills  add constraint c_developer_skills_developer_fk foreign key (developer)  references developers (id) ON DELETE CASCADE;
+alter table developer_skills  add constraint c_developer_skills_skills_fk foreign key (skills)  references skills (id) ON DELETE CASCADE;
 
-create table PROJECT_TEAMS
+create table project_teams
 (
-  id        numeric not null,
-  developer numeric not null,
-  project   numeric not null
+  id        bigint not null,
+  developer bigint not null,
+  project   bigint not null
 )
 ;
-alter table PROJECT_TEAMS  add constraint C_PROJECT_TEAM_PK primary key (ID);
-alter table PROJECT_TEAMS  add constraint C_PROJECT_TEAM_UK unique (DEVELOPER, PROJECT);
-alter table PROJECT_TEAMS  add constraint C_PROJECT_TEAM__DEV_FK foreign key (DEVELOPER)  references DEVELOPERS (ID);
-alter table PROJECT_TEAMS  add constraint C_PROJECT_TEAM__PROJECT_FK foreign key (PROJECT)  references PROJECTS (ID);
-
+alter table project_teams  add constraint c_project_team_pk primary key (id);
+alter table project_teams  add constraint c_project_team_uk unique (developer, project);
+alter table project_teams  add constraint c_project_team__dev_fk foreign key (developer)  references developers (id);
+alter table project_teams  add constraint c_project_team__project_fk foreign key (project)  references projects (id);

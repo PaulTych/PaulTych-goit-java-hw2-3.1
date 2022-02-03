@@ -77,206 +77,206 @@ insert into PROJECTS (id, name, manager)
 values (19, 'Project19', 'Talvin Colon');
 commit;
 
-insert into COMPANY_PROJECTS (id, company, project)
-values (91, 1, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (43, 1, 5);
-insert into COMPANY_PROJECTS (id, company, project)
-values (38, 1, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (62, 1, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (21, 1, 15);
-insert into COMPANY_PROJECTS (id, company, project)
-values (103, 1, 17);
-insert into COMPANY_PROJECTS (id, company, project)
-values (101, 2, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (5, 2, 7);
-insert into COMPANY_PROJECTS (id, company, project)
-values (23, 2, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (32, 2, 15);
-insert into COMPANY_PROJECTS (id, company, project)
-values (71, 2, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (19, 2, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (112, 2, 19);
-insert into COMPANY_PROJECTS (id, company, project)
-values (26, 3, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (78, 3, 9);
-insert into COMPANY_PROJECTS (id, company, project)
-values (65, 3, 14);
-insert into COMPANY_PROJECTS (id, company, project)
-values (73, 3, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (52, 4, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (105, 4, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (102, 4, 4);
-insert into COMPANY_PROJECTS (id, company, project)
-values (84, 4, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (4, 4, 12);
-insert into COMPANY_PROJECTS (id, company, project)
-values (45, 4, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (12, 4, 14);
-insert into COMPANY_PROJECTS (id, company, project)
-values (2, 4, 15);
-insert into COMPANY_PROJECTS (id, company, project)
-values (75, 4, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (6, 4, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (70, 5, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (106, 5, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (3, 5, 10);
-insert into COMPANY_PROJECTS (id, company, project)
-values (46, 5, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (69, 5, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (14, 6, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (114, 6, 4);
-insert into COMPANY_PROJECTS (id, company, project)
-values (39, 6, 9);
-insert into COMPANY_PROJECTS (id, company, project)
-values (87, 6, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (63, 6, 14);
-insert into COMPANY_PROJECTS (id, company, project)
-values (56, 6, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (40, 7, 1);
-insert into COMPANY_PROJECTS (id, company, project)
-values (96, 7, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (55, 8, 1);
-insert into COMPANY_PROJECTS (id, company, project)
-values (59, 8, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (100, 8, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (88, 8, 9);
-insert into COMPANY_PROJECTS (id, company, project)
-values (25, 8, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (64, 9, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (22, 10, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (11, 10, 7);
-insert into COMPANY_PROJECTS (id, company, project)
-values (28, 10, 8);
-insert into COMPANY_PROJECTS (id, company, project)
-values (107, 10, 10);
-insert into COMPANY_PROJECTS (id, company, project)
-values (76, 10, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (10, 10, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (80, 11, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (77, 11, 4);
-insert into COMPANY_PROJECTS (id, company, project)
-values (49, 11, 5);
-insert into COMPANY_PROJECTS (id, company, project)
-values (50, 11, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (113, 11, 9);
-insert into COMPANY_PROJECTS (id, company, project)
-values (27, 11, 12);
-insert into COMPANY_PROJECTS (id, company, project)
-values (35, 11, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (90, 11, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (47, 12, 1);
-insert into COMPANY_PROJECTS (id, company, project)
-values (81, 12, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (74, 12, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (37, 12, 11);
-insert into COMPANY_PROJECTS (id, company, project)
-values (1, 13, 8);
-insert into COMPANY_PROJECTS (id, company, project)
-values (66, 13, 11);
-insert into COMPANY_PROJECTS (id, company, project)
-values (30, 13, 14);
-insert into COMPANY_PROJECTS (id, company, project)
-values (95, 13, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (53, 13, 19);
-insert into COMPANY_PROJECTS (id, company, project)
-values (20, 14, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (29, 14, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (86, 14, 11);
-insert into COMPANY_PROJECTS (id, company, project)
-values (68, 15, 1);
-insert into COMPANY_PROJECTS (id, company, project)
-values (61, 15, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (42, 15, 4);
-insert into COMPANY_PROJECTS (id, company, project)
-values (83, 15, 11);
-insert into COMPANY_PROJECTS (id, company, project)
-values (54, 15, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (15, 15, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (97, 16, 1);
-insert into COMPANY_PROJECTS (id, company, project)
-values (13, 16, 4);
-insert into COMPANY_PROJECTS (id, company, project)
-values (60, 16, 5);
-insert into COMPANY_PROJECTS (id, company, project)
-values (8, 16, 8);
-insert into COMPANY_PROJECTS (id, company, project)
-values (7, 16, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (41, 16, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (33, 17, 3);
-insert into COMPANY_PROJECTS (id, company, project)
-values (18, 17, 7);
-insert into COMPANY_PROJECTS (id, company, project)
-values (36, 17, 8);
-insert into COMPANY_PROJECTS (id, company, project)
-values (94, 17, 9);
-insert into COMPANY_PROJECTS (id, company, project)
-values (67, 17, 13);
-insert into COMPANY_PROJECTS (id, company, project)
-values (79, 17, 17);
-insert into COMPANY_PROJECTS (id, company, project)
-values (17, 17, 18);
-insert into COMPANY_PROJECTS (id, company, project)
-values (82, 18, 2);
-insert into COMPANY_PROJECTS (id, company, project)
-values (16, 18, 4);
-insert into COMPANY_PROJECTS (id, company, project)
-values (58, 18, 6);
-insert into COMPANY_PROJECTS (id, company, project)
-values (51, 18, 8);
-insert into COMPANY_PROJECTS (id, company, project)
-values (57, 18, 9);
-insert into COMPANY_PROJECTS (id, company, project)
-values (34, 18, 12);
-insert into COMPANY_PROJECTS (id, company, project)
-values (72, 18, 15);
-insert into COMPANY_PROJECTS (id, company, project)
-values (108, 18, 16);
-insert into COMPANY_PROJECTS (id, company, project)
-values (93, 18, 18);
+insert into COMPANY_PROJECT (company, project)
+values (1, 3);
+insert into COMPANY_PROJECT (company, project)
+values (1, 5);
+insert into COMPANY_PROJECT (company, project)
+values (1, 6);
+insert into COMPANY_PROJECT (company, project)
+values (1, 13);
+insert into COMPANY_PROJECT (company, project)
+values (1, 15);
+insert into COMPANY_PROJECT (company, project)
+values (1, 17);
+insert into COMPANY_PROJECT (company, project)
+values (2, 3);
+insert into COMPANY_PROJECT (company, project)
+values (2, 7);
+insert into COMPANY_PROJECT (company, project)
+values (2, 13);
+insert into COMPANY_PROJECT (company, project)
+values (2, 15);
+insert into COMPANY_PROJECT (company, project)
+values (2, 16);
+insert into COMPANY_PROJECT (company, project)
+values (2, 18);
+insert into COMPANY_PROJECT (company, project)
+values (2, 19);
+insert into COMPANY_PROJECT (company, project)
+values (3, 3);
+insert into COMPANY_PROJECT (company, project)
+values (3, 9);
+insert into COMPANY_PROJECT (company, project)
+values (3, 14);
+insert into COMPANY_PROJECT (company, project)
+values (3, 18);
+insert into COMPANY_PROJECT (company, project)
+values (4, 2);
+insert into COMPANY_PROJECT (company, project)
+values (4, 3);
+insert into COMPANY_PROJECT (company, project)
+values (4, 4);
+insert into COMPANY_PROJECT (company, project)
+values (4, 6);
+insert into COMPANY_PROJECT (company, project)
+values (4, 12);
+insert into COMPANY_PROJECT (company, project)
+values (4, 13);
+insert into COMPANY_PROJECT (company, project)
+values (4, 14);
+insert into COMPANY_PROJECT (company, project)
+values (4, 15);
+insert into COMPANY_PROJECT (company, project)
+values (4, 16);
+insert into COMPANY_PROJECT (company, project)
+values (4, 18);
+insert into COMPANY_PROJECT (company, project)
+values (5, 2);
+insert into COMPANY_PROJECT (company, project)
+values (5, 6);
+insert into COMPANY_PROJECT (company, project)
+values (5, 10);
+insert into COMPANY_PROJECT (company, project)
+values (5, 16);
+insert into COMPANY_PROJECT (company, project)
+values (5, 18);
+insert into COMPANY_PROJECT (company, project)
+values (6, 2);
+insert into COMPANY_PROJECT (company, project)
+values (6, 4);
+insert into COMPANY_PROJECT (company, project)
+values (6, 9);
+insert into COMPANY_PROJECT (company, project)
+values (6, 13);
+insert into COMPANY_PROJECT (company, project)
+values (6, 14);
+insert into COMPANY_PROJECT (company, project)
+values (6, 18);
+insert into COMPANY_PROJECT (company, project)
+values (7, 1);
+insert into COMPANY_PROJECT (company, project)
+values (7, 18);
+insert into COMPANY_PROJECT (company, project)
+values (8, 1);
+insert into COMPANY_PROJECT (company, project)
+values (8, 2);
+insert into COMPANY_PROJECT (company, project)
+values (8, 6);
+insert into COMPANY_PROJECT (company, project)
+values (8, 9);
+insert into COMPANY_PROJECT (company, project)
+values (8, 16);
+insert into COMPANY_PROJECT (company, project)
+values (9, 18);
+insert into COMPANY_PROJECT (company, project)
+values (10, 2);
+insert into COMPANY_PROJECT (company, project)
+values (10, 7);
+insert into COMPANY_PROJECT (company, project)
+values (10, 8);
+insert into COMPANY_PROJECT (company, project)
+values (10, 10);
+insert into COMPANY_PROJECT (company, project)
+values (10, 13);
+insert into COMPANY_PROJECT (company, project)
+values (10, 18);
+insert into COMPANY_PROJECT (company, project)
+values (11, 3);
+insert into COMPANY_PROJECT (company, project)
+values (11, 4);
+insert into COMPANY_PROJECT (company, project)
+values (11, 5);
+insert into COMPANY_PROJECT (company, project)
+values (11, 6);
+insert into COMPANY_PROJECT (company, project)
+values (11, 9);
+insert into COMPANY_PROJECT (company, project)
+values (11, 12);
+insert into COMPANY_PROJECT (company, project)
+values (11, 16);
+insert into COMPANY_PROJECT (company, project)
+values (11, 18);
+insert into COMPANY_PROJECT (company, project)
+values (12, 1);
+insert into COMPANY_PROJECT (company, project)
+values (12, 2);
+insert into COMPANY_PROJECT (company, project)
+values (12, 3);
+insert into COMPANY_PROJECT (company, project)
+values (12, 11);
+insert into COMPANY_PROJECT (company, project)
+values (13, 8);
+insert into COMPANY_PROJECT (company, project)
+values (13, 11);
+insert into COMPANY_PROJECT (company, project)
+values (13, 14);
+insert into COMPANY_PROJECT (company, project)
+values (13, 16);
+insert into COMPANY_PROJECT (company, project)
+values (13, 19);
+insert into COMPANY_PROJECT (company, project)
+values (14, 3);
+insert into COMPANY_PROJECT (company, project)
+values (14, 6);
+insert into COMPANY_PROJECT (company, project)
+values (14, 11);
+insert into COMPANY_PROJECT (company, project)
+values (15, 1);
+insert into COMPANY_PROJECT (company, project)
+values (15, 3);
+insert into COMPANY_PROJECT (company, project)
+values (15, 4);
+insert into COMPANY_PROJECT (company, project)
+values (15, 11);
+insert into COMPANY_PROJECT (company, project)
+values (15, 13);
+insert into COMPANY_PROJECT (company, project)
+values (15, 18);
+insert into COMPANY_PROJECT (company, project)
+values (16, 1);
+insert into COMPANY_PROJECT (company, project)
+values (16, 4);
+insert into COMPANY_PROJECT (company, project)
+values (16, 5);
+insert into COMPANY_PROJECT (company, project)
+values (16, 8);
+insert into COMPANY_PROJECT (company, project)
+values (16, 13);
+insert into COMPANY_PROJECT (company, project)
+values (16, 16);
+insert into COMPANY_PROJECT (company, project)
+values (17, 3);
+insert into COMPANY_PROJECT (company, project)
+values (17, 7);
+insert into COMPANY_PROJECT (company, project)
+values (17, 8);
+insert into COMPANY_PROJECT (company, project)
+values (17, 9);
+insert into COMPANY_PROJECT (company, project)
+values (17, 13);
+insert into COMPANY_PROJECT (company, project)
+values (17, 17);
+insert into COMPANY_PROJECT (company, project)
+values (17, 18);
+insert into COMPANY_PROJECT (company, project)
+values (18, 2);
+insert into COMPANY_PROJECT (company, project)
+values (18, 4);
+insert into COMPANY_PROJECT (company, project)
+values (18, 6);
+insert into COMPANY_PROJECT (company, project)
+values (18, 8);
+insert into COMPANY_PROJECT (company, project)
+values (18, 9);
+insert into COMPANY_PROJECT (company, project)
+values (18, 12);
+insert into COMPANY_PROJECT (company, project)
+values (18, 15);
+insert into COMPANY_PROJECT (company, project)
+values (18, 16);
+insert into COMPANY_PROJECT (company, project)
+values (18, 18);
 commit;
 
 insert into CUSTOMERS (id, code, name, country)
@@ -322,102 +322,102 @@ values (20, 'Limited ', 'Limited Brands', 'United Kingdom');
 commit;
 
 
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (39, 1, 2);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (36, 1, 12);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (48, 1, 13);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (13, 1, 17);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (6, 1, 19);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (43, 2, 9);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (25, 2, 18);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (9, 4, 8);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (15, 4, 14);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (20, 5, 3);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (2, 5, 8);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (44, 5, 16);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (4, 6, 1);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (45, 6, 2);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (11, 6, 5);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (14, 6, 6);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (23, 6, 8);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (40, 6, 14);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (30, 7, 13);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (29, 8, 17);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (3, 8, 18);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (49, 9, 7);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (10, 10, 2);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (1, 10, 12);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (19, 10, 17);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (41, 10, 18);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (37, 11, 6);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (8, 11, 7);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (27, 11, 12);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (18, 12, 3);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (38, 12, 7);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (16, 12, 16);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (28, 13, 1);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (22, 13, 2);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (12, 13, 3);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (17, 13, 6);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (32, 15, 8);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (47, 15, 11);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (24, 16, 1);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (33, 17, 7);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (35, 18, 2);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (21, 18, 9);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (5, 18, 10);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (7, 18, 11);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (34, 19, 8);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (31, 19, 9);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (46, 19, 16);
-insert into CUSTOMER_PROJECTS (id, customer, project)
-values (26, 19, 17);
+insert into CUSTOMER_PROJECT (customer, project)
+values (1, 2);
+insert into CUSTOMER_PROJECT (customer, project)
+values (1, 12);
+insert into CUSTOMER_PROJECT (customer, project)
+values (1, 13);
+insert into CUSTOMER_PROJECT (customer, project)
+values (1, 17);
+insert into CUSTOMER_PROJECT (customer, project)
+values (1, 19);
+insert into CUSTOMER_PROJECT (customer, project)
+values (2, 9);
+insert into CUSTOMER_PROJECT (customer, project)
+values (2, 18);
+insert into CUSTOMER_PROJECT (customer, project)
+values (4, 8);
+insert into CUSTOMER_PROJECT (customer, project)
+values (4, 14);
+insert into CUSTOMER_PROJECT (customer, project)
+values (5, 3);
+insert into CUSTOMER_PROJECT (customer, project)
+values (5, 8);
+insert into CUSTOMER_PROJECT (customer, project)
+values (5, 16);
+insert into CUSTOMER_PROJECT (customer, project)
+values (6, 1);
+insert into CUSTOMER_PROJECT (customer, project)
+values (6, 2);
+insert into CUSTOMER_PROJECT (customer, project)
+values (6, 5);
+insert into CUSTOMER_PROJECT (customer, project)
+values (6, 6);
+insert into CUSTOMER_PROJECT (customer, project)
+values (6, 8);
+insert into CUSTOMER_PROJECT (customer, project)
+values (6, 14);
+insert into CUSTOMER_PROJECT (customer, project)
+values (7, 13);
+insert into CUSTOMER_PROJECT (customer, project)
+values (8, 17);
+insert into CUSTOMER_PROJECT (customer, project)
+values (8, 18);
+insert into CUSTOMER_PROJECT (customer, project)
+values (9, 7);
+insert into CUSTOMER_PROJECT (customer, project)
+values (10, 2);
+insert into CUSTOMER_PROJECT (customer, project)
+values (10, 12);
+insert into CUSTOMER_PROJECT (customer, project)
+values (10, 17);
+insert into CUSTOMER_PROJECT (customer, project)
+values (10, 18);
+insert into CUSTOMER_PROJECT (customer, project)
+values (11, 6);
+insert into CUSTOMER_PROJECT (customer, project)
+values (11, 7);
+insert into CUSTOMER_PROJECT (customer, project)
+values (11, 12);
+insert into CUSTOMER_PROJECT (customer, project)
+values (12, 3);
+insert into CUSTOMER_PROJECT (customer, project)
+values (12, 7);
+insert into CUSTOMER_PROJECT (customer, project)
+values (12, 16);
+insert into CUSTOMER_PROJECT (customer, project)
+values (13, 1);
+insert into CUSTOMER_PROJECT (customer, project)
+values (13, 2);
+insert into CUSTOMER_PROJECT (customer, project)
+values (13, 3);
+insert into CUSTOMER_PROJECT (customer, project)
+values (13, 6);
+insert into CUSTOMER_PROJECT (customer, project)
+values (15, 8);
+insert into CUSTOMER_PROJECT (customer, project)
+values (15, 11);
+insert into CUSTOMER_PROJECT (customer, project)
+values (16, 1);
+insert into CUSTOMER_PROJECT (customer, project)
+values (17, 7);
+insert into CUSTOMER_PROJECT (customer, project)
+values (18, 2);
+insert into CUSTOMER_PROJECT (customer, project)
+values (18, 9);
+insert into CUSTOMER_PROJECT (customer, project)
+values (18, 10);
+insert into CUSTOMER_PROJECT (customer, project)
+values (18, 11);
+insert into CUSTOMER_PROJECT (customer, project)
+values (19, 8);
+insert into CUSTOMER_PROJECT (customer, project)
+values (19, 9);
+insert into CUSTOMER_PROJECT (customer, project)
+values (19, 16);
+insert into CUSTOMER_PROJECT (customer, project)
+values (19, 17);
 commit;
 
 insert into DEVELOPERS (id, name, surname, sex, birthday, comments, salary)
@@ -484,142 +484,142 @@ insert into SKILLS (id, language, rate)
 values (3, 'Java', 'Senior');
 commit;
 
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (13, 1, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (10, 1, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (33, 1, 11);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (49, 1, 12);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (1, 2, 2);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (40, 2, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (71, 2, 12);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (4, 3, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (27, 3, 4);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (32, 3, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (74, 3, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (80, 4, 1);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (21, 4, 4);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (15, 4, 7);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (2, 4, 8);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (77, 4, 9);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (57, 5, 2);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (63, 5, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (3, 5, 12);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (61, 6, 4);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (52, 6, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (19, 6, 9);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (31, 6, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (34, 6, 12);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (8, 7, 1);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (44, 7, 6);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (16, 7, 7);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (11, 7, 8);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (67, 7, 9);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (50, 8, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (14, 8, 6);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (41, 8, 9);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (54, 9, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (42, 9, 4);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (48, 9, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (28, 9, 6);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (5, 9, 11);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (20, 10, 1);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (56, 10, 9);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (29, 11, 2);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (38, 11, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (53, 11, 9);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (46, 11, 12);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (66, 12, 2);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (36, 12, 11);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (76, 13, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (30, 13, 8);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (45, 13, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (55, 13, 12);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (59, 14, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (62, 14, 6);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (12, 14, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (64, 15, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (6, 15, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (17, 15, 8);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (75, 16, 2);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (43, 16, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (70, 16, 11);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (60, 17, 2);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (9, 17, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (22, 17, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (26, 18, 1);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (37, 18, 3);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (51, 18, 5);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (65, 18, 7);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (47, 18, 8);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (18, 18, 10);
-insert into DEVELOPER_SKILLS (id, developer, skills)
-values (7, 18, 11);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (1, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (1, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (1, 11);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (1, 12);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (2, 2);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (2, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (2, 12);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (3, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (3, 4);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (3, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (3, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (4, 1);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (4, 4);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (4, 7);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (4, 8);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (4, 9);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (5, 2);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (5, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (5, 12);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (6, 4);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (6, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (6, 9);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (6, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (6, 12);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (7, 1);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (7, 6);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (7, 7);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (7, 8);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (7, 9);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (8, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (8, 6);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (8, 9);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (9, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (9, 4);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (9, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (9, 6);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (9, 11);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (10, 1);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (10, 9);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (11, 2);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (11, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (11, 9);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (11, 12);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (12, 2);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (12, 11);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (13, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (13, 8);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (13, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (13, 12);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (14, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (14, 6);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (14, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (15, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (15, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (15, 8);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (16, 2);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (16, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (16, 11);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (17, 2);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (17, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (17, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 1);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 3);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 5);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 7);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 8);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 10);
+insert into DEVELOPER_SKILLS (developer, skills)
+values (18, 11);
 commit;
 
 insert into PROJECT_TEAMS (id, developer, project)
